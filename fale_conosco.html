@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="assets/css/style_header.css">
     <link rel="stylesheet" href="assets/css/style_footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Sobre Nós</title>
+    <link rel="stylesheet" href="assets/css/style_formulario.css">
+    <title>Fale Conosco</title>
 </head>
 
 <body>
@@ -49,10 +50,29 @@
 
 
 
-
-    <div> <!--INICIO DO CORPO DO SITE RESPONSIVO-->
-        <h1>TESTE APENAS</h1>
-    </div> <!--FIM DO CORPO RESPONSIVO-->
+    <div class="background-forms">
+    <section class="form-container">
+        <div class="container">
+            <form>
+                <h1>Entre em contato</h1>
+                <p>Preencha o formulário abaixo e entraremos em contato com você</p>
+                <div class="input-single">
+                    <input class="input" type="text" id="nome" required>
+                    <label for="nome">Seu nome completo</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="text" id="email" required>
+                    <label for="email">Seu e-mail</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="text" id="telefone" required>
+                    <label for="telefone">Seu telefone</label>
+                </div>
+                <div class="btn"><input type="submit" value="Enviar"></div>
+            </form>
+        </div><!--container-->
+    </section>
+    </div>
 
 
 
